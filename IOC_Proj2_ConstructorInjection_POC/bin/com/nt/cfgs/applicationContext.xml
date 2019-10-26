@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- Dependent class Object -->
+<bean id="dt" class="java.util.Date"></bean>
+<!-- Target Class Object -->
+<bean id="wmg" class="com.nt.beans.WishMessageGenerator">
+<!-- <constructor-arg ref="dt"> --><!-- If one parm inject constructor value like that -->
+<constructor-arg name="date" ref="dt"></constructor-arg><!-- Constructor injection -->
+<!-- In Constructor injection Constructor is first loaded -->
+</bean>
+</beans>

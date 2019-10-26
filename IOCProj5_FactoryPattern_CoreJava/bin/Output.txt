@@ -1,0 +1,14 @@
+MRF -0 param constructor
+SwiftCar-1 param Constructor)
+EngineCC::1200->FuelType::Diel->Model::Hatchback
+driving 5+1 gare system SwiftCar with Tyres	Width::32-Height::12-grip::10
+----------------------
+CEAT 0-param Constructor
+BalenoCar-1 param Constructor)
+EngineCC::1300->FuelType::Diel->Model::Hatchback 
+driving 5+1 gare system BalenoCar with Tyres	Width::34-Height::14-grip::12
+-----------------------
+Michelin 0-param Constructor
+CiazCar-1 param Constructor)
+EngineCC::1400->FuelType::Diel->Model::Hatchback
+driving 5+1 gare system CiazCar with Tyres	Width::33-Height::13-grip::11

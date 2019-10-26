@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!-- Dependent class cfgs -->
+<bean id="dtdc" class="com.nt.beans.DTDC"></bean>
+<bean id="bd" class="com.nt.beans.Bluedart"></bean>
+<bean id="dh" class="com.nt.beans.DHI"></bean>
+<bean id="ff" class="com.nt.beans.FirstFlight"></bean>
+<!-- target class cfgs -->
+<bean id="fkd" class="com.nt.beans.Flipkart">
+<constructor-arg ref="ff"></constructor-arg>
+</bean>
+</beans>
