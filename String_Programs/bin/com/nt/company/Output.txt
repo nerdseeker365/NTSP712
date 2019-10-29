@@ -1,0 +1,6 @@
+Enter String Sentence::
+sankar raja
+number of vowels in the given sentence is::: 	5
+Enter String Sentence::
+sankar raja
+number of vowels in the given sentence is::: 	2
