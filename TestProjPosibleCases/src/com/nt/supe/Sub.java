@@ -1,4 +1,4 @@
-package com.nt.supe;
+ package com.nt.supe;
 
 public class Sub extends Test {
 //Inheritance relation is-a
