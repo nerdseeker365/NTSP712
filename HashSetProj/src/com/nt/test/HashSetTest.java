@@ -14,8 +14,13 @@ public class HashSetTest {
 		hr.add("ravi");
 		hr.add("ravi");//duplicates not print
 		Iterator<Object> it=hr.iterator();
+		String name=(String) it.next();
+		if("prasad".equals(name)) {
+			System.out.println(name);
+		}
+		
 		while(it.hasNext()) {
-			System.out.println(it.next());
+			//System.out.println(it.next());
 		}
 
 	}
