@@ -1,0 +1,62 @@
+::::::::::::::::::::::::::::::::::::::::::::::::EXAMPLE ONE::::::::::::::::::::::::::::::::::
+//note points ::
+//->lambda expression is just an anonymous nameless function.
+ //                                                                  ()->{};
+//	->lambda expression not have name,return type  and access modifiers.......
+interface Case1 
+{
+	public abstract  void m1(int a);
+}
+class Case2
+{
+	public static void main(String args[]){
+	Case1 c=(a)->
+		{
+		System.out.println("Value Of A is ::"+a);
+	};
+	c.m1(10);
+	}
+}
+:::::::::::::::::::::::::::::::::::::::::::::::::::Example Two:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+interface T1{
+void m1();
+}
+class T2
+{
+	public static void main(String args[]){
+	T1 t=()->
+		{
+	System.out.println("hello");
+	};
+	t.m1();
+	}
+}
+:::::::::::::::::::::::::::::::::::::::::::::Example three:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+interface T3 
+{
+	public void show(int a);
+}
+class T4
+{
+	public static  void main(String args[]){
+	T3 t=(a)->{
+	System.out.println("value of a is ::"+a);
+	};
+	t.show(60);
+	}
+}
+::::::::::::::::::::::::::::::::::::::::::::::::::Example Five:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+interface T3 
+{
+	public void show(int a);
+}
+class T4
+{
+	public static  void main(String args[]){
+	T3 t=(int a)->{
+	System.out.println("value of a is ::"+a);
+	};
+	t.show(60);
+	}
+}
+::::::::::::::::::::::::::::::::::::::::::::::::::::Example Six::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
