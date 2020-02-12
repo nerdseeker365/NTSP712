@@ -1,0 +1,40 @@
+::::::::::::::::::::::::::::::::::Example One :::::::::::::::::::::::::::::::::::::::::::::::::::::::
+interface T6 
+{
+	public int m1(int a,int b);
+}
+
+class T7 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		T6 t=(a,b)->{
+			int c=0;
+			
+		return  c=a+b;
+		};
+		System.out.println("Result::"+t.m1(10,20));
+	}
+}
+::::::::::::::::::::::::::::::::::::::::::::::::::::Example Two::::::::::::::::::::::::::::::::::::::
+interface T6 
+{
+	public String m1();
+}
+
+class T7 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		T6 t=()->{
+			
+			
+		return "i Am Here";
+		};
+		System.out.println(t.m1());
+	}
+}
+
+ 
