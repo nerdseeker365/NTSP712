@@ -1,0 +1,55 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Example one ::::::::::::::::::::::::::::::::::::::::::::::::::::::
+interface Test2{
+public abstract void display(int a);
+}
+class Test3
+{
+public static void main(String args[]){
+Test2 t=(a)->{
+	System.out.println("Result is::"+a);
+};
+t.display(10);
+}
+}
+:::::::::::::::::::::::::::::::::::::::::::::: example two::::::::::::::::::::::::::::::::::::::
+note if one parameter then not require parenthesis 
+interface Test2{
+public abstract void display(int a);
+}
+class Test3
+{
+public static void main(String args[]){
+Test2 t=(a)->
+	System.out.println("Result is::"+a);
+
+t.display(10);
+}
+}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::example three::::::::::::::::::::::::::::::::::::::::::::::::::
+interface Test2{
+public abstract void display(int a,int b);
+}
+class Test3
+{
+public static void main(String args[]){
+Test2 t=(a,b)->
+	System.out.println("Result is::"+a+" "+b);
+
+t.display(10,20);
+}
+}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::example four::::::::::::::::::::::::::::::::::::::::::
+interface Test2{
+public abstract void display(int a,int b);
+}
+class Test3
+{
+public static void main(String args[]){
+Test2 t=(a,b)->{
+	System.out.println("Result is::"+a+" "+b);
+    System.out.println("Result is::"+a+" "+b);
+};
+t.display(10,20);
+}
+}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::example five:::::::::::::::::::::::::::::::::::::::::::::
