@@ -1,0 +1,24 @@
+->if an interface contain only one abstract method , such type of interfaces are called functional interfaces and the method is called functional method or single abstract method(SAM).
+EX:::
+->Runnable=it contains only run() method
+->Comparable=it comtains only compareTo() method
+->ActionListener=it contains only actionPerformed() method
+->Callable=it contains only call() method
+note::::::inside functional interface in addition to single abstract method(SAM)
+we write any number of default and static methods...
+:::::::::::::::::::::::::;example one:::::::::::::::::::::::::::::::
+interface Test6{
+public abstract void display(int a,int b);
+//default and static methods are java 8 features
+default void m1(){
+System.out.println("hello");
+}
+public static void m2(){
+System.out.println("hi");
+}
+public static void main(String args[]){
+m2();
+}
+}
+
+
