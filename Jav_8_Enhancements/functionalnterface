@@ -1,0 +1,6 @@
+@FunctionalInterface
+interface Tesst7{
+//public abstract void m4();
+public abstract void m6();
+}
+note:::::functionInterface can allow only one abstract method ,must and should add one method only..
