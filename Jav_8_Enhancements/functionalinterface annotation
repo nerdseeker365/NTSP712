@@ -1,0 +1,5 @@
+//java 8 @FunctionalInterface annotation to specify that the  interface is FunctionalInterface
+@FunctionalInterface
+interface Tesst7{
+public abstract void m4();
+}
