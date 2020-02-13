@@ -1,0 +1,5 @@
+@FunctionalInterface
+interface Tesst7{
+public abstract void m6();
+}
+//Where ever FunctionalInterface concept is applicable there we can use Labda expressions.
